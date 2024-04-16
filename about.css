@@ -1,0 +1,119 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.larger {
+    font-size: 1.5em;
+}
+
+.team {
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px; /* Set a fixed width for each team member item */
+    height: 200px; /* Set a fixed height for each team member item */
+    margin: 20px; /* Adjust margin as needed */
+    text-align: center;
+  
+}
+
+.item img {
+    width: 100%; /* Make the image fill the container width */
+    height: 100%; /* Make the image fill the container height */
+    object-fit: cover; /* Cover the entire container without distortion */
+    border-radius: 50%; /* Ensure the images are circular */
+    box-shadow: 0px 0px 20px rgba(214, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+.item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.item p {
+    font-size: 16px;
+}
+
+.item img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,76 @@
+body {
+    background-color: #000000; /* Set background color to black */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Change font-family to something modern */
+    color: #fff; /* Text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff; /* Text color */
+}
+
+header {
+    background-color: #000000; /* Dark background color */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px; /* Larger font size for header */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; /* Font size for navigation links */
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px; /* Larger font size for hero heading */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px; /* Larger font size for hero paragraph */
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #000000; /* Dark background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+/* Add this CSS to increase the size of the separated word */
+.larger {
+    font-size: 1.5em; /* You can adjust the size as needed */
+}
